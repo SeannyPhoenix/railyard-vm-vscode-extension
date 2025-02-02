@@ -1,0 +1,20 @@
+{
+  "name": "railyard-vm-vscode-extension",
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli": "latest",
+		"ghcr.io/devcontainers-contrib/features/apt-packages": {"packages": "bash-completion"},
+		"ghcr.io/devcontainers-contrib/features/typescript": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Github.copilot",
+        "Github.copilot-chat",
+        "dbaeumer.vscode-eslint",
+        "connor4312.esbuild-problem-matchers",
+        "ms-vscode.extension-test-runner"
+      ]
+    }
+  }
+}
