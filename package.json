@@ -9,13 +9,12 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "railyard-vm.helloWorld",
-        "title": "Hello World"
+        "command": "railyard-vm.getConfig",
+        "title": "Railyard: Get Config"
       }
     ]
   },
